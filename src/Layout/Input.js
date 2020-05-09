@@ -24,7 +24,7 @@ const InputTask = ({ addTask }) => {
           className="validate left-flt"
           required
         ></input>
-        <a className="btn-floating btn-large waves-effect waves-light inline ">+</a>
+        <button className="btn-floating btn-large waves-effect waves-light inline " type="submit">+</button>
       </form>
     </div>
   );
