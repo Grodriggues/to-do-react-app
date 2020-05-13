@@ -1,5 +1,5 @@
 {
-  "homepage":"https://jofreis.github.io/to-do-react-app",
+  "homepage": "https://jofreis.github.io/to-do-react-app",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -15,15 +15,16 @@
     "materialize-css": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "uuid": "^8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

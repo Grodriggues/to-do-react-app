@@ -2,6 +2,7 @@ import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import InputTask from "./Layout/Input";
+import {v4 as uuidv4} from "uuid";
 
 import Collapisble from "./Layout/Collapisble";
 
@@ -24,7 +25,7 @@ function App() {
       ...state,
       {
         task,
-        id: state.length,
+        id: uuidv4(),
         details: "",
         done: false,
         priority: "2",
