@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('List files') {
+    stage('Install Dependencies') {
       steps {
-        sh 'ls -la'
+        sh 'npm install'
       }
     }
 
