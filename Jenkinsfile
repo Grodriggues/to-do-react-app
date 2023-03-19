@@ -9,7 +9,7 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        sh 'npm install'
+        sh 'docker build .'
       }
     }
 
