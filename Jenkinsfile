@@ -9,7 +9,7 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        sh 'cat test'
+        sh 'node --version'
       }
     }
 
