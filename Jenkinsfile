@@ -7,12 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('check docker') {
       steps {
-        nodejs('node') {
-          sh 'node -v'
-        }
-
+        sh 'docker build .'
       }
     }
 
