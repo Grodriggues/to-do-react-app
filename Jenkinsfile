@@ -7,9 +7,12 @@ pipeline {
       }
     }
 
-    stage('Install Dependencies') {
+    stage('') {
       steps {
-        sh 'node --version'
+        nodejs('node') {
+          sh 'node -v'
+        }
+
       }
     }
 
