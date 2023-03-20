@@ -9,7 +9,7 @@ pipeline {
 
     stage('Install Dependencies') {
       steps {
-        sh 'docker build .'
+        sh 'cat test'
       }
     }
 
