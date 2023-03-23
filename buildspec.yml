@@ -2,10 +2,8 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 10
     commands:
-      - echo "installing something"
+      - docker --version
   build:
     commands:
       - echo "we are in the build block"
